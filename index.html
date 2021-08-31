@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap-er-Bank</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-16">Welcome to my <span class="font-semibold text-purple-600"> Baap er
+                Bank</span>
+        </h1>
+    </header>
+
+    <main>
+        <section class="bg-green-200 w-3/4 mx-auto mt-8 p-8">
+            <h3 class="text-2xl mb-4">Please Log In</h3>
+            <div>
+                <form>
+                    <input type="text" id="user-email" class="border border-gray-400 rounded block w-3/4 mb-5 px-2 py-1"
+                        placeholder="Enter Your Email">
+                    <input type="password" id="user-password"
+                        class="border border-gray-400 rounded block w-3/4 mb-5 px-2 py-1"
+                        placeholder="Enter Your password">
+
+                    <button id="login-btn" class="bg-yellow-600 px-4 py-2 rounded text-white font-semibold">Log
+                        In</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- <script>
+        document.getElementById('login-btn').addEventListener('click', function () {
+            console.log("button clicked");
+        })
+    </script> -->
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
